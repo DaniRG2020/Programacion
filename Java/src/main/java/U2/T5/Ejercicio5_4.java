@@ -10,8 +10,8 @@ public class Ejercicio5_4 {
         int n1 = sc.nextInt();
         System.out.println();
         int n2 = sc.nextInt();
-        if (n1%2==0){
-            System.out.println(n1 + " Es par");
+        if (n1%2==0 && n2%2==0){
+            System.out.println(n1 + " Los dos son pares");
         }else{
             System.out.println(n1 + " No es par");
 
@@ -19,7 +19,7 @@ public class Ejercicio5_4 {
         if (n2%2==0){
             System.out.println(n2 + " Es par");
         }else{
-            System.out.println(n2 + "No es par");
+            System.out.println(n2 + " No es par");
         }
     }
 }
