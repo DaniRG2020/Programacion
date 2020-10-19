@@ -1,3 +1,5 @@
+package U2.T5;
+
 import java.util.Scanner;
 
 public class Ejercicio5_3 {

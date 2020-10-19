@@ -1,4 +1,4 @@
-package U2T4;
+package U2.T4;
 
 public class Actividad4_1 {
     public static void main(String[] args) {
