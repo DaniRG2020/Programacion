@@ -1,4 +1,4 @@
-package U2.T9;
+package U2.T8;
 
 import java.util.Scanner;
 

@@ -7,7 +7,8 @@ public class Actividad7_3 {
         minúsculas se corresponden con los números del 97 al 122.
 
          */
-
-
+        int numero = (int) (Math.random() * 25 + 97 );
+        char  la = (char) numero;
+        System.out.println("El numero es " + numero + " la letra es " + la );
     }
 }

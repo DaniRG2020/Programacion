@@ -10,14 +10,18 @@ public class Actividad1_1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while (n != 0 ){
-            if (n%2 == 0){
+            if (n%2 == 0 && n>=0 ){
+                System.out.println("Es positivo");
                 System.out.println("Es par");
                 System.out.println("Su cuadrado es " + n*n);
+            }else if (n<0){
+                System.out.println("Es negativo");
+
             }else{
                 System.out.println("Es Impar");
                 System.out.println("Su cuadrado es " + n*n);
-
-            }n=sc.nextInt();
+            }
+            n=sc.nextInt();
 
 
 
